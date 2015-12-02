@@ -29,3 +29,22 @@ rm>remove
 
 help>displays a list of commands
 ### 1.4 Forking and Cloning
+Step 1: Log in to GitHub
+
+Step 2: Create a new repository by clicking the plus sign next to your name in the upper right and selecting New Repository
+
+Step 3: Enter a name for the repo, choose public/private, choose a license, and click Create Repository
+
+Step 4: Navigate to the repo you want to fork
+
+Step 5: Click Fork in the upper right and then copy the URL next to where it says Find File
+
+Step 6: In your terminal, navigate to the folder you wish to clone the repo to
+
+Step 7: Type "git clone [URL of the forked repo]" and hit enter
+
+Step 8: High five yourself BECAUSE YOU JUST FORKED AND CLONED THE SH&T OUT OF THAT REPO
+
+
+
+I think the main reason to fork a repo rather than create a new one is that you don't have to start from scratch-if you find something that is similar enough to what you were planning to create, it makes more sense to fork it that start from scratch.  I derped and had not created a folder for phase0 goodies, but other than that it was fairly easy to set up git and GitHub.  Full disclosure-I've had a GitHub account for a few months and have also submitted some pull requests etc. for Hacktoberfest, so I was already fairly familiar with forking/cloning/git in general.
