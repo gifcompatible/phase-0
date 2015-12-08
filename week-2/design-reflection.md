@@ -1,1 +1,1 @@
-![site map](/phase-0/week-2/imgs/site-map.jpg)
+![site map](/week-2/imgs/site-map.jpg)
