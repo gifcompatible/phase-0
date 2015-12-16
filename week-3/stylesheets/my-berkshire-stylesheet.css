@@ -1,0 +1,109 @@
+body {
+      color: #000080;
+}
+a {
+   color: #800080;
+}
+a:visited {
+           color: #ff0000;
+}
+body {
+      background-color: #ffffff;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+footer {
+  clear: both;
+}
+div p {
+  clear: both;
+}
+.main {
+  max-width: 90%;
+}
+ul {
+  display: inline-block;
+  max-width: 40%;
+  margin: 10px 10px 10px 30px;
+}
+.updated p {
+          font-size: .6em;
+          color: #000080;
+          margin: .5%;
+}
+.left li, .right li {
+                     padding: 1%;
+                     margin: 1%;
+}
+header {
+        font-weight: bold;
+        text-align: center;
+}
+.header1 {
+          font-size: 2em;
+}
+.header15 {
+           font-size: 2em;
+}
+.header2 {
+          font-size: .75em;
+}
+.header3 p{
+          font-size: .3em;
+}
+.header4 p{
+          font-size: 1em;
+}
+.geico {
+        text-align: center;
+        clear: both;
+}
+.break {
+  display: block;
+}
+.hline {
+        width: 100%;
+        height: 1px;
+        background: #000000;
+        margin: 1%;
+}
+.hline2 {
+        width: 100%;
+        height: 1px;
+        background: #000000;
+        margin: 1%;
+}
+.blurb {
+        font-size: .5em;
+}
+.copyright {
+            font-size: .4em;
+}
+
+/*
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+The name and path of the file.  Otherwise it won't link properly!
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+Lots of spans and classes.  Without those I'm not sure  how I would've done it.  Maybe using a table?  It was kind of hard at points-my pair and I got stuck for a bit on how to get the "updated" portions that are under some of the links to the next line, and to get them to sit right under the link.  We used float, padding, clear, and margins as well.
+
+What CSS did you use to modify the element style (like size, color, etc.)?
+
+font-size, font-weight, color
+
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+
+Yes.  So many classes!  It just seemed easier to use classes since we could use them multiple times.
+
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+I think the source code was cleaner in terms of readability-we have spans and classes all over the place, which gets confusing if someone other than us were to try and edit the code.  However, the source code uses a table to structure pretty much the entire site, which while it is cleaner seems very strange...but maybe I'll try it at some point and it will end up being better!
+*/
