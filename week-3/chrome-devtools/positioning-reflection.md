@@ -1,12 +1,12 @@
-![exercise 1](/week-3/imgs/exercise-1.png)
-![exercise 2](/week-3/imgs/exercise-2.png)
-![exercise 3](/week-3/imgs/exercise-3.png)
-![exercise 4](/week-3/imgs/exercise-4.png)
-![exercise 5](/week-3/imgs/exercise-5.png)
-![exercise 6](/week-3/imgs/exercise-6.png)
-![exercise 7](/week-3/imgs/exercise-7.png)
-![exercise 8](/week-3/imgs/exercise-8.png)
-![exercise 9](/week-3/imgs/exercise-9.png)
+![exercise 1](/week-3/chrome-devtools/imgs/exercise-1.png)
+![exercise 2](/week-3/chrome-devtools/imgs/exercise-2.png)
+![exercise 3](/week-3/chrome-devtools/imgs/exercise-3.png)
+![exercise 4](/week-3/chrome-devtools/imgs/exercise-4.png)
+![exercise 5](/week-3/chrome-devtools/imgs/exercise-5.png)
+![exercise 6](/week-3/chrome-devtools/imgs/exercise-6.png)
+![exercise 7](/week-3/chrome-devtools/imgs/exercise-7.png)
+![exercise 8](/week-3/chrome-devtools/imgs/exercise-8.png)
+![exercise 9](/week-3/chrome-devtools/imgs/exercise-9.png)
 
 
     **How can you use Chrome's DevTools inspector to help you format or position elements?**
