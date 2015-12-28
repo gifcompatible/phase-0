@@ -15,3 +15,8 @@ It has to do with the result-float division will give you the "right answer", in
 
 ```ruby puts (365*24)```
 ```ruby puts (24*60) * (365*10)```
+
+
+https://github.com/gifcompatible/phase-0/blob/master/week-4/defining-variables.rb
+
+
