@@ -23,3 +23,24 @@ https://github.com/gifcompatible/phase-0/blob/master/week-4/defining-variables.r
 https://github.com/gifcompatible/phase-0/blob/master/week-4/simple-string.rb
 
 
+https://github.com/gifcompatible/phase-0/blob/master/week-4/basic-math.rb
+
+
+**How does Ruby handle addition, subtraction, multiplication, and division of numbers?**
+
+You input the number as a numeric value, and then can use the symbols +, -, *, / respectively to add, subtract, multiply, and divide numbers.
+
+
+**What are strings? Why and when would you use them?**
+
+Strings are groups of values contained between single or double quotes.  Strings can be contain letters, numbers, spaces, etc.  Strings are good for using with variables-you can set a variable equal to a string so that you don't have to keep typing it over and over again.
+
+
+**What are local variables? Why and when would you use them?**
+
+A local variable is an object you define-for example, you can have my_variable="me", which basically says that when you type my_variable, it is equated to the string value "me", so you will see "me" when you type "my_variable."  I answered why and when you would use them above.
+
+
+**How was this challenge? Did you get a good review of some of the basics?**
+
+It was good-the "Learn to Program" text is really interesting and more helpful than Codecademy was in explaining these concepts.  This was a good review while also learning a few new things!
