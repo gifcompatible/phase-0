@@ -20,3 +20,6 @@ It has to do with the result-float division will give you the "right answer", in
 https://github.com/gifcompatible/phase-0/blob/master/week-4/defining-variables.rb
 
 
+https://github.com/gifcompatible/phase-0/blob/master/week-4/simple-string.rb
+
+
