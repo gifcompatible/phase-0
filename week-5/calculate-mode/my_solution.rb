@@ -51,13 +51,9 @@ puts mode([1, 2, 3, 3])
 
 # 3. Refactored Solution
 def mode(array)
-  freq = Hash.new
+  freq = Hash.new(0)
   array.each do |x|
-    if freq[x].nil?
-      freq[x] = 1
-    elsif freq[x] >= 1
-      freq[x] += 1
-    end
+    freq[x] += 1
   end
   max = freq.values.max
   most = freq.select {|x, y| y == max}
