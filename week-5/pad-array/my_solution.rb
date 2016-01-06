@@ -28,7 +28,7 @@
 # when the pad! method is called, overwrite the original object
 
 # 1. Initial Solution
-def pad!(array, min_size, value = nil)
+def pad!(array, min_size, value = nil) #destructive
   if min_size <= array.length
     return array
   elsif min_size > array.length
@@ -41,7 +41,7 @@ def pad!(array, min_size, value = nil)
   end
 end
 
-def pad(array, min_size, value = nil)
+def pad(array, min_size, value = nil) #non-destructive
   solution_array = Array.new
   array.each do |x|
     solution_array << x
@@ -63,17 +63,20 @@ puts pad([6,4,3], 6, "tea")
 puts pad!([1,2],1, "four")
 
 # 3. Refactored Solution
-def pad(array, min_size, value = nil)
-  solution_array = array.clone
-  if min_size <= array.length
-    return solution_array
-  elsif min_size > array.length
-    times_to_pad = min_size - array.length
-    times_to_pad.times do
-      solution_array << value
-    end
-  end
-  return solution_array
+def pad!(array, min_size, value = nil) #destructive
+ solution_array = array
+ (min_size - array.length).times do
+   solution_array << value
+ end
+ return solution_array
+end
+
+def pad(array, min_size, value = nil) #non-destructive
+ solution_array = array.clone
+ (min_size - array.length).times do
+   solution_array << value
+ end
+ return solution_array
 end
 
 
