@@ -1,6 +1,6 @@
 # Numbers to Commas Solo Challenge
 
-# I spent [] hours on this challenge.
+# I spent [5.5] hours on this challenge.
 
 # Complete each step below according to the challenge directions and
 # include it in this file. Also make sure everything that isn't code
@@ -64,11 +64,11 @@ commas = Array.new
 
 slices = x.each_slice(3) {|chunk| chunk.unshift(",").join}
 
-result = (slices + commas)
-  if result[0] == ","
-    result.delete_at(0)
-  end
-    return result.join
+# result = (slices + commas)
+#   if result[0] == ","
+#     result.delete_at(0)
+#   end
+#     return result.join
 end
 
  print separate_comma(1_000_000_000)
