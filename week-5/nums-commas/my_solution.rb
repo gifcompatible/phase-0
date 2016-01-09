@@ -13,7 +13,7 @@
 # What are the steps needed to solve the problem?
  # define a method separate_comma that takes one integer as an argument
  # convert the integer into a string
- # split the string into an substrings
+ # split the string into substrings
  # count the the substrings
  # take the number of substrings and divide them by three
  # create a new variable commas and set it equal to an empty array
