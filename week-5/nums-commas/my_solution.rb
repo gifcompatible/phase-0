@@ -51,27 +51,24 @@ result = (x + commas)
   return result.join
 end
 
-# print separate_comma(100000000)
+# print separate_comma(100_000_000)
 
 # 2. Refactored Solution
 
 def separate_comma(integer)
-  x = integer.to_s.reverse.split("")
-  length = x.count
-  chunks = length / 3 #how many chunks
+  tempstring = integer.to_s.split("").reverse
+  commas = []
 
-commas = Array.new
+  tempstring.each_slice(3) {|chunk| commas.push(",", chunk)}
 
-slices = x.each_slice(3) {|chunk| chunk.unshift(",").join}
-
-# result = (slices + commas)
-#   if result[0] == ","
-#     result.delete_at(0)
-#   end
-#     return result.join
+  if commas[0] == ","
+    commas.delete_at(0)
+  end
+     return commas.join.reverse
 end
 
- print separate_comma(1_000_000_000)
+puts "__________"
+print separate_comma(90_000_000_000)
 
 
 
@@ -84,7 +81,7 @@ end
 
 # What new Ruby method(s) did you use when refactoring your solution? Describe your experience of using the Ruby documentation to implement it/them (any difficulties, etc.). Did it/they significantly change the way your code works? If so, how?
 
-#each_slice is pretty darn awesome, but I realized that I would need to make some modifications to some of my other code blocks to make it work that seemed a bit more confusing to me than how I set up my initial solution.  In the end I couldn't figure out how to get it to work-I know it does what I want it to do but I couldn't figure out how to get it to work correctly without including another while loop after trying a lot of differnet things.
+#each_slice is pretty darn awesome, but I realized that I would need to make some modifications to some of my other code blocks to make it work that seemed a bit more confusing to me than how I set up my initial solution.  I had a lot of trouble getting the commas to be in the right places, but I actually revisted this challenged after doing the accountability groups challenge, and using the method I made on that challenge as a template, I was able to get it figured out!!  HUZZAH FOR BREAKTHROUGHS!!
 
 # How did you initially iterate through the data structure?
 
@@ -92,4 +89,4 @@ end
 
 # Do you feel your refactored solution is more readable than your initial solution? Why?
 
-# Not really-I got stuck trying to figure out how to get my "slices" variable added to the commas array, and tried, re-tried, and re-wrote the code until I was blue in the face.  Obviously there are some steps missing but I can't figure out what else I need.
+# Definitely.  When I look at my initial solution, I see what it'd doing, but it's pretty complicated and there are pieces I didn't end up using (length) there-the refactor just makes so much more sense!!
