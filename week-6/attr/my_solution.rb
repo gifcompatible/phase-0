@@ -2,13 +2,19 @@
 
 # I worked on this challenge by myself
 
-# I spent [#] hours on this challenge.
+# I spent 1.25 hours on this challenge.
 
 # Pseudocode
 
-# Input:
-# Output:
+# Input: none
+# Output: a string greeting
 # Steps:
+  # define a class NameData
+    # initialize a name instance variable set equal to my name
+  # define a class Greetings
+    # initiatlize an instance of the NameData class
+    # define a method hi
+      #return a string greeting using an interpolation of the NameData instance and the name instance variable
 
 class NameData
   attr_accessor :name
