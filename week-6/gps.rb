@@ -1,6 +1,6 @@
 # Your Names
 # 1) Jenna El-Amin
-# 2)
+# 2) Mollie Stein
 
 # We spent [#] hours on this challenge.
 
