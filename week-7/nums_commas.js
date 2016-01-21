@@ -63,23 +63,24 @@ function addCommas(integer) {
    var splitInt = integer.toString().split("");
    var intLength = splitInt.length;
 
-    if (intLength < 4 ){
+    if (intLength < 4 ) {
       return integer;
     }
 
    var numCommas = commaCalculator(intLength);
-   var intSubstr = "";
+   var intSubstr = new String();
 
  for(var x = 0; x <= numCommas; x++) {
     var eachSet = splitInt.splice(-3);
+    var eachString = eachSet.toString().replace(",", "");
+    // console.log(eachString);
    if (x !== numCommas){
     var commasAdded = ",";
-    commasAdded = "," + eachSet;
-    console.log(commasAdded, "<======");
+    commasAdded = "," + eachString;
    }
-    intSubstr = eachSet.concat(intSubstr);
+    intSubstr = eachString.concat(intSubstr);
    }
-  return intSubstr.join('');
+  return intSubstr;
  }
 
  function commaCalculator(integer){
