@@ -107,4 +107,4 @@ function addCommas(integer) {
 
 // What built-in methods did you find to incorporate in your refactored solution?
 
-// I couldn't find any that seemed like they would work better than what I used in my initial solution-I tried to use only string methods in the refactor, but couldn't figure out how to get it to work the same way.
+// I couldn't find any that seemed like they would work better than what I used in my initial solution-I tried to use only string methods in the refactor, but couldn't figure out how to get it to work the same way.  I worked on it one last time with Andrew in office hours, but we ended up rabbit holing and the only solution we found to get it the function to do what we wanted was extremely complicated-basically trying to build Ruby's "insert" method in JavaScript from scratch...
