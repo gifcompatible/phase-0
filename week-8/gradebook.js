@@ -51,27 +51,22 @@ var average = function(array){
 // __________________________________________
 // Refactored Solution
 
-var gradebook = {
-  Joseph: new Object,
-  Susan: new Object,
-  William: new Object,
-  Elizabeth: new Object
+var gradebook = {}
+​
+for(var i in students) {
+  gradebook[students[i]] = new Object;
+  gradebook[students[i]].testScores = scores[i];
 }
-
-gradebook.Joseph.testScores = scores[0]
-gradebook.Susan.testScores = scores[1]
-gradebook.William.testScores = scores[2]
-gradebook.Elizabeth.testScores = scores[3]
-
+​
 gradebook.addScore = function(name, score) {
   gradebook[name]["testScores"].push(score)
 }
-
+​
 gradebook.getAverage = function(name) {
   return average(gradebook[name]["testScores"])
 }
-
-var average = function(array){
+​
+function average(array) {
  var total = 0
  for(var x in array) {
    total += array[x]
