@@ -9,7 +9,7 @@
 9. SELECT region_name FROM regions WHERE region_name LIKE '%central%';
 10. SELECT regions.region_name, states.state_name FROM regions INNER JOIN states ON regions.id=states.region_id;
 
-![schemadesign](/week-8/persons_outfits.png)
+![schemadesign](persons_outfits.png)
 
 **What are databases for?**
 
